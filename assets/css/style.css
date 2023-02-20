@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbox{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    direction: rtl;
+    position: fixed;
+    
+  
+}
+
+.navbox ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 20px;
+    line-height: 100px;
+
+}
+
+.navbox ul li{
+margin: 0  70px;
+}
+
+.navbox ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.4rem;
+    }
+
+.navbox ul li a:hover{
+
+        font-weight: bold;
+    }
+
+
+.box1{
+    height: 3000px;
+    width: 100%;
+    background-color: gainsboro;
+}
